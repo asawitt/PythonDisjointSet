@@ -44,6 +44,7 @@ class DJSet:
 	def union(self, set2):
 		self.tail.next = set2.head
 		self.tail = set2.tail
+		self.size += set2.size
 	def printValues(self):
 		cur = self.head
 		if (cur):
@@ -102,5 +103,3 @@ class DisjointSet:
 		else:
 			print("Set " + str(index) + " does not exist")
 			del self.sets[index]
-
-
