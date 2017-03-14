@@ -1,5 +1,11 @@
 # PythonDisjointSet
 Quick Disjoint Set implementation for Python3
+## Installation
+-Fastest would be to copy-paste the contents of DisjointSet.py into your code
+
+-Or you could download DisjointSet.py and throw it in your project directory. Use "from DisjointSet import *" to use it in your code
+
+-You could clone https://github.com/asawitt/PythonDisjointSet/ , move DisjointSet.py to your project directory, then use the above import statement if you really want to. Don't. 
 
 ## Usage
 ### Create a new DisjointSet
