@@ -28,6 +28,9 @@ sets.removeSet(index)
 ### Getting the size of a set
 -Returns the size of the set with the given setIndex in O(1) time
 sets.getSize(setIndex)
+### Total Size
+-Returns the total size of all sets in the DisjointSet. Runs in O(h) time where h is the number of sets
+sets.getTotalSize()
 
 
 
