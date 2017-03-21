@@ -16,10 +16,13 @@ sets.addSet(index)
 sets.addToSet(setIndex,value)
 ### Union
 -combines merges set with index2 into set with index1
+
 sets.union(index1, index2)
 ### Finding a value
 -Returns the index of the set which contains the given value in O(n) time.
+
 -If the value is in more than one set it will return the index of the first containing set found. 
+
 sets.find(value)
 ### Printing
 sets.printSets()
@@ -27,9 +30,11 @@ sets.printSets()
 sets.removeSet(index)
 ### Getting the size of a set
 -Returns the size of the set with the given setIndex in O(1) time
+
 sets.getSize(setIndex)
 ### Total Size
 -Returns the total size of all sets in the DisjointSet. Runs in O(h) time where h is the number of sets
+
 sets.getTotalSize()
 
 
