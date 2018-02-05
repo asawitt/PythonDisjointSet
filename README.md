@@ -1,4 +1,6 @@
 # PythonDisjointSet
+IMPORTANT: Run times are hugely sub-optimal, have a look at https://github.com/asawitt/PythonUnionFind/ for a more typical UnionFind implementation with near constant union/find operations. 
+
 Quick Disjoint Set implementation for Python3
 ## Installation
 -Fastest would be to copy-paste the contents of DisjointSet.py into your code
